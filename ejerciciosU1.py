@@ -1,6 +1,6 @@
 import math
 
-nombre_ej = "Dani" #Nombre variables snake_case
+nombre_ej = "Dani" #Nombre variables snake_case.
 edad = 20
 print(edad) #20
 edad = 30
