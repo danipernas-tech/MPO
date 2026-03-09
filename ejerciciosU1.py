@@ -72,13 +72,12 @@ print(f"Hola {nombre}, tienes {edad} años.")
 
 #Ejercicio 2
 #Escribe un programa en Python que pida al usuario dos números y luego imprime la suma, resta, muultiplicación y división de amos números
-num1 = float(input("Dime un número\n"))
-num2 = float(input("Dime otro número\n"))
-suma = num1 + num2
+num1 = int(input("Dime un número\n"))
+num2 = int(input("Dime otro número\n"))
 resta = num1 - num2
 multi = num1 * num2
 divi = num1 / num2
-print(f"La suma es: {suma}\nLa resta es: {resta}\nLa multi es: {multi}\nLa division es: {divi}")
+print(f"La suma es: {num1 + num2}\nLa resta es: {resta}\nLa multi es: {multi}\nLa division es: {divi}")
 
 #Ejercicio 3
 #Pide dos numeros e imprime True si son iguales y False si no son iguales
