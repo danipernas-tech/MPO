@@ -1,5 +1,78 @@
 import math
 
+#Ejercicio 01
+nombre = input("Dime tu nombre\n")
+edad = int(input("Dime tu edad\n"))
+print(f"Bienvenido {nombre}, tienes {edad} años.")
+
+#Ejercicio 02
+numero1 = int(input("Dime un número\n"))
+numero2 = int(input("Dime otro número\n"))
+suma = numero1 + numero2
+resta = numero1 - numero2
+multi = numero1* numero2
+div = numero1 / numero2
+print(f"Suma: {suma}\nResta: {resta}\nMulti: {multi}\nDiv: {div}")
+
+#Ejercicio 03
+numero3 = int(input("Dime un número\n"))
+numero4 = int(input("Dime otro número\n"))
+print(f"Son iguales: {numero3 == numero4}")
+
+#Ejercicio 04
+numero5 = int(input("Dime un número\n"))
+numero6 = int(input("Dime otro número\n"))
+print(f"Son divisibles?: {numero5 % numero6 == 0}")
+
+#Ejercicio 05
+numero7 = int(input("Dime un número para decirte el siguiente\n"))
+numero7 += 1
+print(f"El siguiente número es {numero7}")
+
+#Ejercicio 06
+numero8 = int(input("Dime un número\n"))
+doble = numero8 * 2
+triple = numero8 * 3
+mitad = numero8 / 2
+cuadrado = numero8 ** 2
+raiz = math.sqrt(numero8)
+print(f"Doble: {doble}\nTriple: {triple}\nMitad: {mitad}\nCuadrado: {cuadrado}\nRaiz: {raiz}")
+
+#Ejercicio 07
+numero9 = int(input("Dime un número\n"))
+numero10 = int(input("Dime otro número\n"))
+numero11 = int(input("Dime un número más\n"))
+print(f"Son mayores que 0 : {numero9 > 0 and numero10 > 0 and numero11 > 0}")
+
+#Ejercicio 08
+nombre2 = input("Dime un nombre\n")
+nombre3 = input("Dime otro nombre\n")
+nombre4 = input("Dime otro nombre más\n")
+print(f"Alguno es Juan? {nombre2 == "Juan" or nombre3 == "Juan" or nombre4 == "Juan"}")
+
+#Ejercicio 09
+numero12 = int(input("Dime un número\n"))
+print(f"Es mayor o igual que 18 y menor que 65: {numero12 >= 18 and numero12 < 65}")
+
+#Ejercicio 10
+numero13 = int(input("Dime un número\n"))
+numero14 = int(input("Dime otro número que no sea 0\n"))
+entera = (numero13 / numero14)
+decimal = numero13 // numero14
+resto = numero13 % numero14
+print(f"Entera: {entera}\nDecimal: {decimal}\nResto: {resto}")
+
+
+
+
+
+
+
+
+
+
+
+'''
 #01
 nombre = input("Dime tu nombre\n")
 edad = input("Dime tu edad\n")
@@ -66,3 +139,4 @@ print(f"Decimal {decimal}\nEntera {entera}\nResto {resto}")
 
 edad10 = 10
 print("Tengo", edad10,"años")
+'''
