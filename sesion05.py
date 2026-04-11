@@ -28,4 +28,23 @@ else:
 
 #ESTRUCTURAS DE CONTROL DE REPETICIÓN
 
+#Bucle for
 
+for i in range(5):
+    print(i)
+
+for i in range(0, 10, 2):
+    print(i)
+
+numeros = [1, 2, 3, 4, 5]
+for numero in numeros:
+    print(numero)
+
+#Bucle while
+
+numero2 = int(input("Introduce un numero: \n"))
+suma = 0
+while numero2 != 0:
+    suma += numero2
+    numero2 = int(input("Introduce otro número (0 para salir\n)"))
+print("La suma es: ", suma)
