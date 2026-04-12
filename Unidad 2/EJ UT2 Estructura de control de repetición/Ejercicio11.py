@@ -20,6 +20,7 @@ menor = 0
 while numero != 0:
     if numero > mayor:
         mayor = numero
+        menor = numero
     elif numero < menor:
         menor = numero
     numero = int(input("Dime otro número (0 para salir)\n"))
