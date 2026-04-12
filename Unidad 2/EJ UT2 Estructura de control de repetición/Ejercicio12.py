@@ -13,3 +13,9 @@ while numero != 0:
 
 print(f"El número mayor es: {mayor}")
 print(f"El número menor es: {menor}")
+
+num = int(input("DIme un número\n"))
+if num % 2 == 0:
+    print(f"{num} es par")
+else:
+    print(f"{num} es impar")
