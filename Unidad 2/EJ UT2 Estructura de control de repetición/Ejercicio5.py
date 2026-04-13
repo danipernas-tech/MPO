@@ -5,8 +5,10 @@
 num = int(input("Dime un número positivo\n"))
 for i in range (1, num + 1, 1):
     if i % 3 == 0 and i % 5 == 0:
-        pass
+        continue
     elif i % 3 == 0:
         print(i , " multiplo de 3")
     elif i % 5 == 0:
         print(i , " multiplo de 5")
+
+        #if(i%3 !=0 and i%5 !=0) or (i%3 ==0 and i%5 ==0):

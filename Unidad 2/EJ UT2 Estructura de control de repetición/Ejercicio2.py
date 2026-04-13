@@ -2,6 +2,6 @@
 
 num4 = int(input("Dime un número: \n"))
 resultado = 0
-for i in range (0, num4, 2):
+for i in range (0, num4+1, 2):
     resultado += i
 print(resultado)

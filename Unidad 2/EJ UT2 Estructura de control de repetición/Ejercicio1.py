@@ -9,4 +9,6 @@ while contador < num3:
     print(contador)
 
 
-
+for i in range(num3):
+    print(i, end=", ")
+print(num3)
