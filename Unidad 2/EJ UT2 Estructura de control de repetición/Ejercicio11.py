@@ -10,6 +10,9 @@ for i in range (1, evaluaciones + 1, 1):
         suma_notas += nota
         cantidad_notas += 1
         nota = float(input(f"Dime otra nota de la evaluación {i} (-1 para salir)\n"))
-    print(f"Nota media de la evaluación {i} = {(suma_notas / cantidad_notas)}")
+    if cantidad_notas > 0:
+        print(f"Nota media de la evaluación {i} = {(suma_notas / cantidad_notas)}")
+    else:
+        print(f"Evaluación {i}: no se introdujo ninguna nota.")
 
 
