@@ -2,7 +2,7 @@
 
 
 import random
-numeroAleatorio = random.randint(1, 100)
+numero_aleatorio = random.randint(1, 100)
 numero = int(input("Intenta adivinar un número del 1 al 100\n"))
 while numero != numeroAleatorio:
     if numero > numeroAleatorio:

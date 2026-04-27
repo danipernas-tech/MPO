@@ -2,8 +2,8 @@
 
 numero = int(input("Dime un número:\n"))
 
-mayor = 0
-menor = 1000000000000000
+mayor = numero
+menor = numero
 while numero != 0:
     if numero > mayor:
         mayor = numero
